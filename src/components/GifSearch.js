@@ -6,8 +6,9 @@ export default class GifSearch extends Component {
     }
 
     handleSubmit = event => {
+        // debugger
         event.preventDefault()
-        this.props.fetchGifs(this.state.query)
+        this.props.fetchGIFs(this.state.query)
     }
 
 
